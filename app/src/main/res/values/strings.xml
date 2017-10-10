@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BruToolKit</string>
+    <string name="uploading">正在上传&#8230;</string>
+    <string name="downloading">正在下载&#8230;</string>
+    <string name="loading_str">加载中...</string>
+</resources>
