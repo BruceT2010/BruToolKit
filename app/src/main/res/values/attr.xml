@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    代码设置：
+        RoundedImageView iv = new RoundedImageView(context);
+        iv.setScaleType(ScaleType.CENTER_CROP);
+        iv.setCornerRadius(10);
+        iv.setBorderWidth(2);
+        iv.setBorderColor(Color.DKGRAY);
+        iv.setRoundedBackground(true);
+        iv.setImageDrawable(drawable);
+        iv.setBackground(backgroundDrawable);
+        iv.setOval(true);
+
+    xml属性设置：
+        corner_radius         边缘的弧度数
+        border_width         描边的宽度
+        border_color         描边的颜色
+        mutate_background     背景是否变化
+        oval                 是否为圆形
+        android:scaleType     拉伸的方式
+    -->
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="mutate_background" format="boolean" />
+        <attr name="oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+</resources>
