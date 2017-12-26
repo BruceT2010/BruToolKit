@@ -7,9 +7,9 @@ import okhttp3.RequestBody;
 /**
  * Class Desc: http请求管理器
  * <p/>
- * Creator : BruceDing
+ * Creator : DingJian
  * <p/>
- * Email : brucedingdev@foxmail.com
+ * Email : jian.ding@melot.cn
  * Create Time : 2016/8/15 18:24
  */
 public interface HttpImpl {

@@ -11,7 +11,7 @@ import android.view.inputmethod.InputMethodManager;
  * <p/>
  * Creator : BruceDing
  * <p/>
- * Email : brucedingdev@foxmail.com
+ * Email : jian.ding@melot.cn
  * <p/>
  * Create Time: 2017/03/16 17:51
  */

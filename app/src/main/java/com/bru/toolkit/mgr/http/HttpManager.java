@@ -5,22 +5,21 @@ import android.content.Context;
 
 import com.bru.toolkit.mgr.http.impl.HttpImpl;
 import com.bru.toolkit.mgr.http.impl.Request4Str;
-import com.bru.toolkit.mgr.http.okhttp.OkHttpManager;
 
 import okhttp3.RequestBody;
 
 /**
  * Class Desc: http请求管理类
  * <p/>
- * Creator : BruceDing
+ * Creator : DingJian
  * <p/>
- * Email : brucedingdev@foxmail.com
+ * Email : jian.ding@melot.cn
  * Create Time : 2016/8/15 18:47
  */
 public class HttpManager implements HttpImpl {
 
     private HttpManager() {
-        httpImpl = new OkHttpManager();
+        //httpImpl = new OkHttpMgr();
     }
 
     private HttpImpl httpImpl;

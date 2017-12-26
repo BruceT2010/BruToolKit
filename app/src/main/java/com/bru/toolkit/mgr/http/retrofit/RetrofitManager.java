@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 /**
- * Created by BruceDing on 2016/6/27.
+ * Created by DJ on 2016/6/27.
  */
 public class RetrofitManager {
 

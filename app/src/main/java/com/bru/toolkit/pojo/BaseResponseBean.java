@@ -3,7 +3,7 @@ package com.bru.toolkit.pojo;
 /**
  * Class Desc: BaseResponseBean
  * <p/>
- * Creator : BruceDing
+ * Creator : DingJian
  * <p/>
  * Email : brucedingdev@foxmail.com
  * <p/>

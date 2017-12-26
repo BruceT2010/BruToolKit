@@ -3,11 +3,11 @@ package com.bru.toolkit.mgr.http.impl;
 /**
  * Class Desc: Class Desc
  * <p/>
- * Creator : BruceDing
+ * Creator : DingJian
  * <p/>
- * Email : brucedingdev@foxmail.com
+ * Email : jian.ding@melot.cn
  * Create Time : 2016/8/15 18:53
  */
 public interface Request4Str {
-    public void getStr(String strProfile);
+    public void onGetStr(String strResult);
 }

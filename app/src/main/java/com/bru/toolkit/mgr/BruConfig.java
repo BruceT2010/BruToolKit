@@ -1,5 +1,7 @@
 package com.bru.toolkit.mgr;
 
+import android.content.Context;
+
 /**
  * Class Desc: 工具箱配置
  * <p/>
@@ -12,5 +14,14 @@ package com.bru.toolkit.mgr;
 public class BruConfig {
 
     public static boolean isDebug = true;
+    private static Context appContext;
+
+    public static Context AppContext() {
+        return appContext;
+    }
+
+    public static void setContext(Context context) {
+        appContext = context;
+    }
 
 }

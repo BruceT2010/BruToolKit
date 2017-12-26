@@ -12,9 +12,9 @@ import okhttp3.Response;
 /**
  * Class Desc: OkHttp日志拦截器
  * <p/>
- * Creator : BruceDing
+ * Creator : DingJian
  * <p/>
- * Email : brucedingdev@foxmail.com
+ * Email : jian.ding@melot.cn
  * <p/>
  * Create Time: 2016/08/24 17:24
  */
