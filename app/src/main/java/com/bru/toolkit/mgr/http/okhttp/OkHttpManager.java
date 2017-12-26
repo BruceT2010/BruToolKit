@@ -151,7 +151,7 @@ public class OkHttpManager extends BaseHttpImpl implements HttpImpl {
                 String result = response.body().string();
                 Logs.e(TAG, result);
                 if (null != request4Str) {
-                    request4Str.getStr(result);
+                    request4Str.onGetStr(result);
                 }
                 if (!TextUtils.isEmpty(result) && null != cls)
                     EventBus.getDefault().post(new Gson().fromJson(response.body().string(), cls));
@@ -178,7 +178,7 @@ public class OkHttpManager extends BaseHttpImpl implements HttpImpl {
                 String result = response.body().string();
                 Logs.e(TAG, result);
                 if (null != request4Str) {
-                    request4Str.getStr(result);
+                    request4Str.onGetStr(result);
                 }
                 if (!TextUtils.isEmpty(result) && null != cls)
                     EventBus.getDefault().post(new Gson().fromJson(response.body().string(), cls));
@@ -214,7 +214,7 @@ public class OkHttpManager extends BaseHttpImpl implements HttpImpl {
                         dismissDialog();
                         Logs.e(TAG, result);
                         if (null != request4Str) {
-                            request4Str.getStr(result);
+                            request4Str.onGetStr(result);
                         }
                         if (!TextUtils.isEmpty(result) && null != cls)
                             EventBus.getDefault().post(new Gson().fromJson(result, cls));
@@ -249,7 +249,7 @@ public class OkHttpManager extends BaseHttpImpl implements HttpImpl {
                         dismissDialog();
                         Logs.e(TAG, result);
                         if (null != request4Str) {
-                            request4Str.getStr(result);
+                            request4Str.onGetStr(result);
                         }
                         if (!TextUtils.isEmpty(result) && null != cls)
                             EventBus.getDefault().post(new Gson().fromJson(result, cls));
@@ -449,7 +449,7 @@ public class OkHttpManager extends BaseHttpImpl implements HttpImpl {
                         dismissDialog();
                         Logs.e(TAG, result);
                         if (null != request4Str) {
-                            request4Str.getStr(result);
+                            request4Str.onGetStr(result);
                         }
                         if (!TextUtils.isEmpty(result) && null != cls)
                             EventBus.getDefault().post(new Gson().fromJson(result, cls));
